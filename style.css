@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Merriweather", serif;
+}
+
+/* banner section style start */
+.banner-container{
+    max-width: 1320px;
+    /* min-height: 600px; */
+    height: 600px;
+    /* border: 2px solid red; */
+    /* background-color: red; */
+    margin: 0 auto;
+    margin-top: 20px;
+
+    background-color: rgba(0,0,0,0.5);
+    background-image: url("assets/Banner Image.png");
+    background-blend-mode: overlay;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 15px;
+}
+
+.banner-content{
+    height: 600px;
+    width: 600px;
+
+/* PROBLEM: margin 0 auto na dileo to kaz korar kotha */
+    margin: 0 auto;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.banner-content p, h1{
+    color: white;
+}
+
+.banner-content p{
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.banner-content h1{
+    font-size: 72px;
+    font-weight: 900;
+    /* PROBLEM: text-align: center na dile keno kaz kore na? p to kaz kore h1 keno noy? */
+    text-align: center;
+}
+
