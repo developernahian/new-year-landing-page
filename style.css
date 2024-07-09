@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 
 *{
     margin: 0;
@@ -11,18 +13,18 @@ body{
     font-family: "Merriweather", serif;
 }
 
-/* banner section style start */
+/* TODO: banner section style start */
+
 .banner-container{
     max-width: 1320px;
     /* min-height: 600px; */
     height: 600px;
-    /* border: 2px solid red; */
-    /* background-color: red; */
+
     margin: 0 auto;
     margin-top: 20px;
 
     background-color: rgba(0,0,0,0.5);
-    background-image: url("assets/Banner Image.png");
+    background-image: url("assets/banner-image.png");
     background-blend-mode: overlay;
 
     background-repeat: no-repeat;
@@ -62,4 +64,68 @@ body{
     /* PROBLEM: text-align: center na dile keno kaz kore na? p to kaz kore h1 keno noy? */
     text-align: center;
 }
+
+
+
+/* banner section style END */
+
+
+/* TODO: OFF section START */
+
+.off-section-cntainer{
+    width: 802.9px;
+    height: 806px;
+    /* background-color: yellow; */
+    margin: 0 auto;
+    margin-top: 120px;
+
+
+
+}
+
+
+.off-section-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.off-section-content h1{
+    color: rgb(255, 0, 0);
+    font-family: "Inter", sans-serif;
+    font-size: 88px;
+    font-weight: 700;
+
+}
+
+.off-section-content p{
+    margin-top: 48px;
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.off-section-content h3{
+    margin-top: 16px;
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.new-year-image{
+    margin-top: 48px;
+    width: 802.9px;
+    height: 500px;
+}
+
+.new-year-image img{
+    width: 100%;
+    height: 100%;
+}
+
+/* OFF section END */
 
